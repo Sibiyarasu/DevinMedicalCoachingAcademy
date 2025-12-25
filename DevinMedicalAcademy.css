@@ -29,7 +29,11 @@ body {
   margin-right: 10px;
 }
 
-
+    .ourmission {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #0077b6;
+    }
 /* Navigation */ nav { display: none; /* hidden by default */ width: 100%; background: #004080; } nav ul { list-style: none; display: flex; flex-direction: column; align-items: center; padding: 10px 0; } nav ul li a { color: white; text-decoration: none; font-weight: 500; padding: 10px; } nav ul li a:hover { color: #ffcc00; } /* Menu Toggle Button */ .menu-toggle { font-size: 1.8rem; color: white; cursor: pointer; margin-left: auto; } /* Show menu when toggled */ nav.show { display: block; } /* Desktop styling when menu is open */ @media (min-width: 769px) { nav ul { flex-direction: row; justify-content: center; } }
 .contact-top { display: flex; flex-direction: column; align-items: flex-end; font-size: 0.9rem; margin-left: auto; margin-right: 20px; } .contact-top span { color: #ffcc00; font-weight: 500; }
 .hero {
@@ -295,3 +299,25 @@ nav ul li a:hover {
 .logo2 {
  margin-top: 20px;
 }
+
+.logo-icon {
+  width: 40px;
+  height: auto;
+  margin: 10px;
+}
+#extra-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+    .logo-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
